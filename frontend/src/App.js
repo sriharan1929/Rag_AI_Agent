@@ -511,7 +511,7 @@ function App() {
     const fileName = prompt("💾 Save your AI chat conversation as a text file:", defaultName);
     if (!fileName) return; 
     
-    let text = "ZIP-RAG AI Chat Conversation\n============================\n\n";
+    let text = "priyankx AI Chat Conversation\n============================\n\n";
     messages.forEach((msg) => {
       const role = msg.role === 'user' ? 'YOU' : 'AI';
       text += `[${role}]:\n${msg.content}\n`;

@@ -26,7 +26,7 @@ const Header = ({
         >
           ☰
         </button>
-        <h1><span className="logo-icon">📁</span> ZIP-RAG AI</h1>
+        <h1><span className="logo-icon">📁</span> priyankx AI</h1>
       </div>
       
       <div className="title-section">

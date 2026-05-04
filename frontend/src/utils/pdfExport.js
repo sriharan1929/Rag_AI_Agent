@@ -15,7 +15,7 @@ export const downloadConversationPDF = (messages, selectedFiles) => {
   // Header
   doc.setFontSize(18);
   doc.setTextColor(99, 102, 241); 
-  doc.text("ZIP-RAG AI Chat Conversation", margin, y);
+  doc.text("priyankx AI Chat Conversation", margin, y);
   y += 10;
   
   doc.setFontSize(10);
